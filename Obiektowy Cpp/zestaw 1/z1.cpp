@@ -12,7 +12,7 @@ T maksimum(T a, T b) {
 int main() {
 
     std::cout << maksimum(1, 2) << std::endl;
-    std::cout << maksimum(2.0, 1.0) << std::endl;
+    std::cout << maksimum(2.14, 1.14) << std::endl;
     std::cout << maksimum('a', 'b') << std::endl;
     std::cout << maksimum("ala", "ola") << std::endl;
 
