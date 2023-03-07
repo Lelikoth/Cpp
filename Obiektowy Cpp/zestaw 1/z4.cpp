@@ -1,4 +1,5 @@
-//Szablony parametrów szablonu umożliwiają przekazanie nazwy szablonu jako argumentu szablonu funkcji. Podaj prosty przykład jak można dedukować wartości pozatypowych argumentów szablonu (void f(C<K>))
+//Szablony parametrów szablonu umożliwiają przekazanie nazwy szablonu jako argumentu szablonu funkcji. 
+//Podaj prosty przykład jak można dedukować wartości pozatypowych argumentów szablonu (void f(C<K>))
 
 #include <iostream>
 
