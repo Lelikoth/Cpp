@@ -1,4 +1,5 @@
-//Zaimplementuj szablon funkcji accumulate, której pierwszy i drugi argument są iteratorami dowolnego kontenera STL. Funkcja ma za zadanie wyliczać sumę wszystkich elementów w przedziale podanych iteratorów
+//Zaimplementuj szablon funkcji accumulate, której pierwszy i drugi argument są iteratorami dowolnego kontenera STL. 
+//Funkcja ma za zadanie wyliczać sumę wszystkich elementów w przedziale podanych iteratorów
 
 #include <iostream>
 #include <vector>
