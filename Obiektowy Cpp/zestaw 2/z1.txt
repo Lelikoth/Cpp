@@ -2,8 +2,8 @@ Podaj definicję pojęć: polimorfizm dynamiczny i statyczny, klasa abstrakcyjna
 
 Polimorfizm dynamiczny - możliwość decydowania o tym jaka funkcja zostanie wywołana pod daną nazwą nie w momencie kompilacji (czyli pisania kodu), ale w samym momecie wywołania.
 
-Polimorfizm statyczny - możliwość wywołania funkcji wirtualnej w zależności od typu wskaźnika.
+Polimorfizm statyczny - możliwość decydowania o tym jaka funkcja zostanie wywołana pod daną nazwą w momencie kompilacji (czyli pisania kodu).
 
-Klasa abstrakcyjna - klasa, której nie można utworzyć obiektu. Służy do tworzenia klas pochodnych.
+Klasa abstrakcyjna - klasa, której obiektu nie można utworzyć. Służy do tworzenia klas pochodnych.
 
 Funkcja wirtualna - funkcja, która może zostać nadpisana w klasie pochodnej.

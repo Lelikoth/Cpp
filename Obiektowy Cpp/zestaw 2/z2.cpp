@@ -6,14 +6,25 @@ using namespace std;
 
 class A
 {
+private:
+    string x = "A::f()";
 public:
-    virtual void f() { cout << "A::f()" << endl; }
+    virtual void f() { cout << x << endl; }
+
+    A& operator=(const A& a)
+    {
+        x = a.x;
+        return *this;
+    }
 };
 
 class B : public A
 {
+private:
+    string x = "B::f()";
 public:
-    virtual void f() { cout << "B::f()" << endl; }
+    void f() override { cout << x << endl; }
+
 };
 
 int main()
@@ -22,7 +33,7 @@ int main()
     B *b = new B();
     a->f();
     b->f();
-    a = b;
-    a->f();
+    b = (B*)a;
+    b->f();
     return 0;
 }

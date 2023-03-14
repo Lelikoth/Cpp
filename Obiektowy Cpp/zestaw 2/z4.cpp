@@ -1,4 +1,6 @@
-//Zaimplementuj klasę (funktor typu generator) SeqenceGen przy wykorzystaniu której wypełnij, za pomocą algorytmu generate_n, wektor sekwencją 20 pierwszych nieparzystych liczb całkowitych. Znajdź element większy od 4 przy wykorzystaniu adaptera bind oraz algorytmu find_if
+//Zaimplementuj klasę (funktor typu generator) SeqenceGen przy wykorzystaniu której wypełnij,
+//za pomocą algorytmu generate_n, wektor sekwencją 20 pierwszych nieparzystych liczb całkowitych. 
+//Znajdź element większy od 4 przy wykorzystaniu adaptera bind oraz algorytmu find_if
 
 
 #include <iostream>
@@ -10,16 +12,15 @@ using namespace std;
 
 class SequenceGen
 {
+private:
+    int start = 1;
 public:
-    SequenceGen(int start = 1) : m_start(start) {}
     int operator()()
     {
-        int result = m_start;
-        m_start += 2;
+        int result = start;
+        start += 2;
         return result;
     }
-private:
-    int m_start;
 };
 
 int main()
